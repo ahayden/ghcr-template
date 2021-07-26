@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - main
+# For staged builds, make a workflow run when a base workflow completes
+# workflow_run:
+#   workflows:
+#     - 'base'
+#   types:
+#     - completed
+
 
 jobs:
   build:

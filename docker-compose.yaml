@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   ghcr-template:
-    image: ghcr.io/ahayden/ghcr-template:base
+    image: ghcr.io/${USER}/ghcr-template:base
     hostname: base
     environment:
       TERM: "xterm-color"
